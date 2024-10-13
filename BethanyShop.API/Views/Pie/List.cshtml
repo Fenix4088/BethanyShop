@@ -1,0 +1,20 @@
+@model BethaniShop.API.ViewModels.PieListViewModel
+
+@{
+    Layout = "_Layout";
+}
+
+<h1>@Model.CurrentCategory</h1>
+<ul>
+    @foreach(var pie in Model.Pies)
+    {
+        <li>
+            <a asp-controller="Pie" asp-action="Detail" asp-route-id="@pie.PieId">
+                @* <img src="@pie.ImageThumbnailUrl" /> *@
+                <p>Name: @pie.Name</p>
+                <p>Price: @pie.Price</p>
+                <p>Category: @pie.Category.CategoryName</p>
+            </a>
+        </li>
+    }
+</ul>
