@@ -13,9 +13,9 @@ builder.Services.AddDbContext<BethanyPiesShopDbContext>(options =>
     );
 });
 
+
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
 app.UseStaticFiles();
 
 if (app.Environment.IsDevelopment())
@@ -23,7 +23,17 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 
-app.MapDefaultControllerRoute();
+app.MapGet("/", context =>
+{
+    context.Response.Redirect("/pie/list");
+    return Task.CompletedTask;
+});
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Pie}/{action=List}/{id?}"
+);
+
 DbInitializer.Seed(app);
 
 app.Run();
