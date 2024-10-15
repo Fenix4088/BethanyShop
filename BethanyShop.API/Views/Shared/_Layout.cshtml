@@ -4,13 +4,42 @@
     <meta name="viewport" content="width=device-width" />
     <title>@ViewData["Title"]</title>
     <!-- Bootstrap CSS -->
-    <link href="~/css/bootstrap.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
 
-@RenderBody()
+<header class="d-inline-block mb-3">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary"
+         aria-label="Bethany's Pie Shop navigation header">
+        <div class="container-xl">
+            <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                <img src="images/bethanys-pie-shop-logo_horiz-white.png" width="151" height="47" class="d-inline-block align-top mb-2 mt-1"
+                     alt="Bethany's Pie Shop Logo">
+            </a>
 
-<!-- Bootstrap Bundle with Popper -->
-<script src="~/js/bootstrap.bundle.js"></script>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a asp-controller="Home" asp-action="Index" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a asp-controller="Pie" asp-action="List" class="nav-link">Pies</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
