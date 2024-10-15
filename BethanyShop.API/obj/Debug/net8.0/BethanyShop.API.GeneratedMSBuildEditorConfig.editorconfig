@@ -18,10 +18,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/Views/Pie/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGllL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/Views/Pie/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGllL0xpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

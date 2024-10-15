@@ -138,3 +138,4 @@
 /Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.sourcelink.json
+/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/bin/Debug/net8.0/BethanyShop.API.staticwebassets.runtime.json

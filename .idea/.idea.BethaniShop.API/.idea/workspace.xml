@@ -9,20 +9,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b00cfd1-c3fa-4c72-b9c0-c4cdb6796396" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BethanyShop.API/Controllers/Home.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanyShop.API/Views/Pie/Details.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BethanyShop.API/Views/_ViewImports.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BethaniShop.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BethaniShop.API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BethanyShop.API/Models/MockCategoryRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BethanyShop.API/Models/MockPieRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BethanyShop.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyShop.API/BethanyShop.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/BethanyShop.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyShop.API/Controllers/PieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/Controllers/PieController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyShop.API/Views/Pie/List.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/Views/Pie/List.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyShop.API/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyShop.API/bin/Debug/net8.0/BethanyShop.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/bin/Debug/net8.0/BethanyShop.API.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BethanyShop.API/bin/Debug/net8.0/BethanyShop.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/bin/Debug/net8.0/BethanyShop.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BethanyShop.API/bin/Debug/net8.0/BethanyShop.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/bin/Debug/net8.0/BethanyShop.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyShop.API/obj/BethanyShop.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/obj/BethanyShop.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyShop.API/obj/BethanyShop.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/obj/BethanyShop.API.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/ref/BethanyShop.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/ref/BethanyShop.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/refint/BethanyShop.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/refint/BethanyShop.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/obj/Debug/net8.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyShop.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyShop.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyShop.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyShop.API/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BethanyShop.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BethanyShop.API/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +50,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53d1f073bfc848d7956b34c76e4efc6d19c00/2f/e5a8d507/WebApplication.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/61d895d4f5b54a849c3317176ec9cf3ac6c00/fc/c70f773b/Controller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6a7ad30fb6d74ff0af45e87c35f635ff3d000/d6/f625d195/RazorPage`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6fb07e288afa4fb5b6e5c73ac90727b2219600/df/f50ed5e9/ControllerEndpointRouteBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7c05a9f56cce41eba9451cc4a5a099ccea00/58/31675c51/IHostApplicationBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87bed8ddb3a8426686194432a8407b75d82200/b3/7ce8534d/StringSyntaxAttribute.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -112,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728744682535</updated>
-      <workItem from="1728744684014" duration="20185000" />
+      <workItem from="1728744684014" duration="24925000" />
     </task>
     <servers />
   </component>

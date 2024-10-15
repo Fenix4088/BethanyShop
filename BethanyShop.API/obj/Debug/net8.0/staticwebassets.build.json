@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "cBPxt/IWCq+9/FeDIpHeS2r+RLOXgxIexZLVfUy3Bjw=",
+  "Hash": "ZH1TCfApQ5SdZNTBy6c7LAl+Xe+M1BW1/GKNvbGcnCM=",
   "Source": "BethanyShop.API",
   "BasePath": "_content/BethanyShop.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BethanyShop.API/wwwroot",
+      "Source": "BethanyShop.API",
+      "ContentRoot": "/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/wwwroot/",
+      "BasePath": "_content/BethanyShop.API",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }
