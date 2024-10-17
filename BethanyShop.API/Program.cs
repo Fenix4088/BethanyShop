@@ -1,5 +1,6 @@
 using BethaniShop.API.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +8,7 @@ builder.Services.AddSession();
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IPieRepository, PieRepository>();
-
+builder.Services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 //shortcut
 // builder.Services.AddScoped<IShoppingCart, ShoppingCart>(ShoppingCart.GetCart);
 builder.Services.AddScoped<IShoppingCart, ShoppingCart>(serviceProvider => ShoppingCart.GetCart(serviceProvider));

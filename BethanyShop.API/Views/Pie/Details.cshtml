@@ -9,7 +9,7 @@
             <h3 class="pull-right blockquote">@Model.Price.ToString("c")</h3>
             <div class="addToCart">
                 <p class="button">
-                   Add To Cart
+                    <a asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-pieId="@Model.PieId" class="btn btn-primary">Add to cart</a>
                 </p>
             </div>
         </div>
