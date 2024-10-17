@@ -3,6 +3,7 @@ using BethaniShop.API.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BethaniShop.API.Migrations
 {
     [DbContext(typeof(BethanyPiesShopDbContext))]
-    partial class BethanyPiesShopDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241015164018_ShoppingCartItem")]
+    partial class ShoppingCartItem
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

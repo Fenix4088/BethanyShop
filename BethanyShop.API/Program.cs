@@ -3,9 +3,15 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddSession();
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IPieRepository, PieRepository>();
+
+//shortcut
+// builder.Services.AddScoped<IShoppingCart, ShoppingCart>(ShoppingCart.GetCart);
+builder.Services.AddScoped<IShoppingCart, ShoppingCart>(serviceProvider => ShoppingCart.GetCart(serviceProvider));
+
 builder.Services.AddDbContext<BethanyPiesShopDbContext>(options =>
 {
     options.UseSqlServer(
@@ -15,7 +21,7 @@ builder.Services.AddDbContext<BethanyPiesShopDbContext>(options =>
 
 var app = builder.Build();
 app.UseStaticFiles();
-
+app.UseSession();
 
 if (app.Environment.IsDevelopment())
 {
