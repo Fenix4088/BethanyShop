@@ -8,7 +8,9 @@ builder.Services.AddSession();
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<IPieRepository, PieRepository>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddRazorPages();
 //shortcut
 // builder.Services.AddScoped<IShoppingCart, ShoppingCart>(ShoppingCart.GetCart);
 builder.Services.AddScoped<IShoppingCart, ShoppingCart>(serviceProvider => ShoppingCart.GetCart(serviceProvider));
@@ -30,6 +32,7 @@ if (app.Environment.IsDevelopment())
 }
 app.UseRouting();
 app.MapDefaultControllerRoute();
+app.MapRazorPages();
 
 
 DbInitializer.Seed(app);
