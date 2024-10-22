@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanyShop.API", "BethanyShop.API\BethanyShop.API.csproj", "{9E7682CA-8134-4123-A47B-90683ECAE526}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanyShop.Tests", "BethanyShop.Tests\BethanyShop.Tests.csproj", "{39EF5729-54B1-4A46-92BD-E041F5E36E23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{9E7682CA-8134-4123-A47B-90683ECAE526}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E7682CA-8134-4123-A47B-90683ECAE526}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E7682CA-8134-4123-A47B-90683ECAE526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39EF5729-54B1-4A46-92BD-E041F5E36E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39EF5729-54B1-4A46-92BD-E041F5E36E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39EF5729-54B1-4A46-92BD-E041F5E36E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39EF5729-54B1-4A46-92BD-E041F5E36E23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
