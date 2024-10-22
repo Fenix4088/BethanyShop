@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BethanyShop.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d382ecac78387aa4e5e642cda290e6e8ce5b353")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9835f7039beceb323b7ddaf787982f909c5a8612")]
 [assembly: System.Reflection.AssemblyProductAttribute("BethanyShop.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BethanyShop.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -14,4 +14,9 @@ public class PieRepository(BethanyPiesShopDbContext bethanyPiesShopDbContext): I
     {
         return _bethanyPiesShopDbContext.Pies.Find(pieId);
     }
+
+    public IEnumerable<Pie> SearchPies(string searchQuery)
+    {
+        return _bethanyPiesShopDbContext.Pies.Where(p => p.Name.ToLower().Contains(searchQuery.ToLower()));
+    }
 }
