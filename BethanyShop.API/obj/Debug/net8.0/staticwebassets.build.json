@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZH1TCfApQ5SdZNTBy6c7LAl+Xe+M1BW1/GKNvbGcnCM=",
+  "Hash": "uPgL7b/+iOrqIHpukblqZJN/cbuCNCkNZ+6sh+SBBiA=",
   "Source": "BethanyShop.API",
   "BasePath": "_content/BethanyShop.API",
   "Mode": "Default",
@@ -15,5 +15,44 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/obj/Debug/net8.0/scopedcss/bundle/BethanyShop.API.styles.css",
+      "SourceId": "BethanyShop.API",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/obj/Debug/net8.0/scopedcss/bundle/",
+      "BasePath": "_content/BethanyShop.API",
+      "RelativePath": "BethanyShop.API.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/obj/Debug/net8.0/scopedcss/bundle/BethanyShop.API.styles.css"
+    },
+    {
+      "Identity": "/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/obj/Debug/net8.0/scopedcss/projectbundle/BethanyShop.API.bundle.scp.css",
+      "SourceId": "BethanyShop.API",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "BasePath": "_content/BethanyShop.API",
+      "RelativePath": "BethanyShop.API.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/obj/Debug/net8.0/scopedcss/projectbundle/BethanyShop.API.bundle.scp.css"
+    }
+  ]
 }

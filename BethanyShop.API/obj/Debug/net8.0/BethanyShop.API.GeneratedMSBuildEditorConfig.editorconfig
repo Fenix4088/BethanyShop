@@ -18,6 +18,38 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/App/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwL0FwcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/App/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwL1BhZ2VzL0Vycm9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/App/Pages/PieCard.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwL1BhZ2VzL1BpZUNhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/App/Pages/SearchBlazor.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwL1BhZ2VzL1NlYXJjaEJsYXpvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/App/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwL1JvdXRlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/App/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwL19JbXBvcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/App/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwL0xheW91dC9NYWluTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-eify019umi
+
+[/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/App/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwL0xheW91dC9OYXZNZW51LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-ofmztz3kgc
+
 [/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/Pages/CheckoutComplete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hlY2tvdXRDb21wbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,6 +92,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/Views/Pie/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGllL0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/Views/Pie/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGllL1NlYXJjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/Views/Shared/Components/CategoryMenu/Default.cshtml]
