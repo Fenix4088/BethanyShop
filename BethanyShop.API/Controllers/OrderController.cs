@@ -1,8 +1,10 @@
 using BethaniShop.API.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BethaniShop.API.Controllers;
 
+[Authorize]
 public class OrderController(IOrderRepository orderRepository, IShoppingCart shoppingCart): Controller
 {
     private readonly IOrderRepository _orderRepository = orderRepository;

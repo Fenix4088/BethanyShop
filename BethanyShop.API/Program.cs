@@ -3,8 +3,10 @@ using BethaniShop.API.App;
 using BethaniShop.API.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection.Extensions;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("BethanyPiesShopDbContextConnection") ?? throw new InvalidOperationException("Connection string 'BethanyPiesShopDbContextConnection' not found.");
 
 builder.Services.AddSession();
 builder.Services.AddControllersWithViews().AddJsonOptions(x =>
@@ -27,6 +29,8 @@ builder.Services.AddDbContext<BethanyPiesShopDbContext>(options =>
     );
 });
 
+builder.Services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<BethanyPiesShopDbContext>();
+
 var app = builder.Build();
 app.UseStaticFiles();
 app.UseSession();
@@ -37,6 +41,7 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 app.UseRouting();
+app.UseAuthorization();
 app.MapDefaultControllerRoute();
 app.UseAntiforgery();
 app.MapRazorPages();
