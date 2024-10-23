@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("BethanyShop.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13a228dea65ff0377383017417b75ca665a14d27")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50e35f4c30e07f3315fb2bb9953033876121ec7a")]
 [assembly: System.Reflection.AssemblyProductAttribute("BethanyShop.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BethanyShop.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

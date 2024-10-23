@@ -142,3 +142,11 @@
 /Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/obj/Debug/net8.0/scopedcss/App/Layout/MainLayout.razor.rz.scp.css
 /Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/obj/Debug/net8.0/scopedcss/App/Layout/NavMenu.razor.rz.scp.css
 /Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/obj/Debug/net8.0/scopedcss/projectbundle/BethanyShop.API.bundle.scp.css
+/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.UI.dll
+/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/bin/Debug/net8.0/Microsoft.Extensions.FileProviders.Embedded.dll
+/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
+/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/fenix/Documents/webdev/courses/BethaniShop.API/BethanyShop.API/obj/Debug/net8.0/BethanyShop.API.MvcApplicationPartsAssemblyInfo.cs
